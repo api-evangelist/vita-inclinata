@@ -1,7 +1,27 @@
 aid: vita-inclinata
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vita-inclinata.png
 name: Vita Inclinata
-description: Vita Inclinata is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Vita Inclinata Technologies is a Colorado-based hardware company that builds
+  physics-based load stabilization systems for helicopter hoists and construction
+  cranes, eliminating the dangerous spin and sway of suspended loads. Its ecosystem
+  spans Vita Aerospace (helicopter and rescue hoist stabilization), Vita Industrial
+  (crane and construction load control), Air Rescue Systems (hoist training and
+  products), and the Vita Rescue System used in military MEDEVAC operations. The
+  company is Techstars-backed. It was surfaced as a portfolio-company lead and added
+  to the API Evangelist network; as a physical-hardware manufacturer it currently
+  publishes no public developer API, SDK, or technical integration surface.
 url: https://raw.githubusercontent.com/api-evangelist/vita-inclinata/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Hardware
+- Aerospace
+- Robotics
+- Construction
+- Load Stabilization
+- Safety
+- Defense
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +50,23 @@ maintainers:
 common:
 - type: Website
   url: https://vitatech.co/
+- type: Blog
+  url: https://vitatech.co/news
+  name: News
+- type: Support
+  url: mailto:info@vitatech.co
+  name: Contact
+- type: TermsOfService
+  url: https://vitatech.co/terms-and-conditions
+  name: Terms & Conditions
+- type: PrivacyPolicy
+  url: https://vitatech.co/privacy-policy
+  name: Privacy Policy
+- type: DomainSecurity
+  url: security/vita-inclinata-domain-security.yml
+  name: Domain Security Posture
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
